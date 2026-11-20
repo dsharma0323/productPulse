@@ -1,0 +1,27 @@
+{
+  "sessions": 8000,
+  "product_views": 6567,
+  "carts": 2829,
+  "checkouts": 1959,
+  "purchases": 1310,
+  "revenue": 75925.05,
+  "conversion_pct": 16.38,
+  "cart_abandonment_pct": 53.69,
+  "by_device": {
+    "Mobile": {
+      "sessions": 5161,
+      "purchases": 698,
+      "conversion_pct": 13.52
+    },
+    "Desktop": {
+      "sessions": 2411,
+      "purchases": 558,
+      "conversion_pct": 23.14
+    },
+    "Tablet": {
+      "sessions": 428,
+      "purchases": 54,
+      "conversion_pct": 12.62
+    }
+  }
+}
