@@ -4,6 +4,14 @@
 
 The project combines **SQL and Python analysis**, an **interactive HTML dashboard**, and a **product strategy report** built around a synthetic dataset of 8,000 shopping sessions.
 
+## Dashboard preview
+
+![ProductPulse dashboard preview](assets/dashboard-preview.svg)
+
+**[Open dashboard demo](https://dsharma0323.github.io/productPulse/)** · [View dashboard source](dashboard/index.html)
+
+The dashboard is configured for deployment through GitHub Pages. If the live link is not active yet, enable **Settings → Pages → Build and deployment → Source: GitHub Actions**, then run the **Deploy ProductPulse dashboard to GitHub Pages** workflow from the Actions tab.
+
 ## Business question
 
 Where do shoppers leave the purchase funnel, how does conversion differ by device, and which product improvements would be most useful to investigate first?
@@ -17,7 +25,7 @@ Open [the interactive dashboard](dashboard/index.html) locally to explore:
 - Revenue and customer segments
 - Mobile versus desktop conversion
 
-The dashboard runs locally in a browser; it is not currently hosted as a live website.
+The dashboard also runs locally in a browser; the GitHub Pages workflow publishes the same HTML dashboard.
 
 ## Key findings
 
@@ -79,6 +87,8 @@ data/                      Synthetic CSV, SQLite database, and metrics
 python/analyze_data.py     KPI validation
 sql/product_analysis.sql   SQL analysis queries
 reports/                   Product strategy case study (Markdown and PDF)
+assets/                    Dashboard preview graphic
+.github/workflows/         GitHub Pages deployment configuration
 README.md                  Project overview and setup
 ```
 
